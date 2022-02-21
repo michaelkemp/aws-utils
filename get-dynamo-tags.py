@@ -39,5 +39,5 @@ for account in accounts:
 
 json_string = json.dumps(dynamoTables,indent=4)
 
-with open('dynamodbs.json', 'w') as outfile:
+with open('dynamodb-tags.json', 'w') as outfile:
 	outfile.write(json_string)

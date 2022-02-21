@@ -57,5 +57,5 @@ for key in keyValues:
 
 json_string = json.dumps(keyValues,indent=4)
 
-with open('tags.json', 'w') as outfile:
+with open('all-tags.json', 'w') as outfile:
 	outfile.write(json_string)

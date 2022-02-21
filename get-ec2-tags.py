@@ -37,5 +37,5 @@ for account in accounts:
 
 json_string = json.dumps(ec2Instances,indent=4)
 
-with open('ec2s.json', 'w') as outfile:
+with open('ec2-tags.json', 'w') as outfile:
 	outfile.write(json_string)

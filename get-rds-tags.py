@@ -74,5 +74,5 @@ for account in accounts:
 
 json_string = json.dumps(rdsInstances,indent=4)
 
-with open('rds.json', 'w') as outfile:
+with open('rds-tags.json', 'w') as outfile:
 	outfile.write(json_string)
