@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 
 import boto3, json
-from collections import OrderedDict
-from pprint import pprint
-
 
 accounts = ["dev","prod","legacy"]
 

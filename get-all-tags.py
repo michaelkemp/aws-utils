@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import boto3, json
-from collections import OrderedDict
 
 accounts = ["dev","prod","legacy"]
 
